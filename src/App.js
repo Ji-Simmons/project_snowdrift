@@ -1,25 +1,57 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import background from './background.jpg';
 
 function App() {
   return (
-    <div className="App">
+    <div>
+      <body style={{ 
+        backgroundImage: `url(${background})`,
+      backgroundAttachment: `fixed`,
+      backgroundSize: `auto`,
+      backgroundPositionY: `bottom`,
+      backgroundPositionX: `right`
+      // fix the position bullshit.
+      }}>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Project: Snowdrift™</h1>
+        <p><img src="./logo.png"></img></p>
+        <h6>We need a better logo.</h6>
       </header>
+      
+
+
+   
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+      <p><h1>some text</h1></p>
+    
+    </body>
     </div>
   );
 }
 
 export default App;
+
